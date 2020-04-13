@@ -1,0 +1,33 @@
+{
+  "name": "hsman",
+  "version": "1.0.0",
+  "description": "Hidden Service Manager.",
+  "main": "hsman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dr11z3r/hsman.git"
+  },
+  "keywords": [
+    "tor",
+    "onion",
+    "hidden",
+    "service",
+    "manager",
+    "hsman"
+  ],
+  "author": "dr11z3r",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/dr11z3r/hsman/issues"
+  },
+  "homepage": "https://github.com/dr11z3r/hsman#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "is-running": "^2.1.0",
+    "uuid": "^3.3.2",
+    "winston": "^3.2.1"
+  }
+}
